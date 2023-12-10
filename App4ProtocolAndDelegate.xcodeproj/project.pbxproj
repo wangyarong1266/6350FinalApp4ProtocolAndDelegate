@@ -13,6 +13,8 @@
 		964B8CBE2B252A5F000FBE5D /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 964B8CBC2B252A5F000FBE5D /* Main.storyboard */; };
 		964B8CC02B252A65000FBE5D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 964B8CBF2B252A65000FBE5D /* Assets.xcassets */; };
 		964B8CC32B252A65000FBE5D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 964B8CC12B252A65000FBE5D /* LaunchScreen.storyboard */; };
+		964B8CCB2B252B1E000FBE5D /* GetNameAndPhoneNumberViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 964B8CCA2B252B1E000FBE5D /* GetNameAndPhoneNumberViewController.swift */; };
+		964B8CCF2B252DB8000FBE5D /* SendNameAndPhoneNumber.swift in Sources */ = {isa = PBXBuildFile; fileRef = 964B8CCE2B252DB8000FBE5D /* SendNameAndPhoneNumber.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +26,8 @@
 		964B8CBF2B252A65000FBE5D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		964B8CC22B252A65000FBE5D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		964B8CC42B252A65000FBE5D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		964B8CCA2B252B1E000FBE5D /* GetNameAndPhoneNumberViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GetNameAndPhoneNumberViewController.swift; sourceTree = "<group>"; };
+		964B8CCE2B252DB8000FBE5D /* SendNameAndPhoneNumber.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SendNameAndPhoneNumber.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -63,6 +67,8 @@
 				964B8CBF2B252A65000FBE5D /* Assets.xcassets */,
 				964B8CC12B252A65000FBE5D /* LaunchScreen.storyboard */,
 				964B8CC42B252A65000FBE5D /* Info.plist */,
+				964B8CCA2B252B1E000FBE5D /* GetNameAndPhoneNumberViewController.swift */,
+				964B8CCE2B252DB8000FBE5D /* SendNameAndPhoneNumber.swift */,
 			);
 			path = App4ProtocolAndDelegate;
 			sourceTree = "<group>";
@@ -138,8 +144,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				964B8CCF2B252DB8000FBE5D /* SendNameAndPhoneNumber.swift in Sources */,
 				964B8CBB2B252A5F000FBE5D /* ViewController.swift in Sources */,
 				964B8CB72B252A5F000FBE5D /* AppDelegate.swift in Sources */,
+				964B8CCB2B252B1E000FBE5D /* GetNameAndPhoneNumberViewController.swift in Sources */,
 				964B8CB92B252A5F000FBE5D /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -292,6 +300,7 @@
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
+				ENABLE_USER_SCRIPT_SANDBOXING = NO;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = App4ProtocolAndDelegate/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
@@ -319,6 +328,7 @@
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
+				ENABLE_USER_SCRIPT_SANDBOXING = NO;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = App4ProtocolAndDelegate/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
